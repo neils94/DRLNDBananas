@@ -9,7 +9,8 @@
 
 # The Agent
 - The agent's job is to learn from its environment as quickly as possible; it has 4 available actions to it (forwards, backwards, left, right).
-- What is the agent learning from the environment? Good question, the agent is learning whether it should collect or avoid certain bananas: Blue bananas give the agent a negative reward while yellow bananas give it a positive reward. The agent is trying to maximize the number of rewards it receives, and in doing so will learn to avoid blue bananas as much as possible while collecting yellow bananas.
+- What is the agent learning from the environment? Good question, the agent is learning whether it should collect or avoid certain bananas: Blue bananas give the agent a negative reward (-1) while yellow bananas give it a positive reward (+1). The agent is trying to maximize the number of rewards it receives, and in doing so will learn to avoid blue bananas as much as possible while collecting yellow bananas.
+- The environment is considered to be solved when the agent can reach a an average score of +13 over a 100 episode period.
 
 
 # Dependencies/Installations
