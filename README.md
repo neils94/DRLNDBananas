@@ -5,7 +5,7 @@
 # The Environment
 - The agent is operating within an environment that is discrete; meaning it has a finite set of state spaces (37) that it can travel to. 
 - The environment also has bananas scattered around it, blue and yellow.
-- It's built using Unity and Gym, taking raw pixels from 3 dimensional space and turning it into vectors so that the problem is approachable in 2 dimensional space.
+- It's built using Unity and Gym packages on python, taking raw pixels from 3 dimensional space and turning it into vectors so that the problem is approachable in 2 dimensional space.
 
 # The Agent
 - The agent's job is to learn from its environment as quickly as possible; it has 4 available actions to it (forwards, backwards, left, right).
