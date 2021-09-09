@@ -14,8 +14,12 @@
 
 # Dependencies/Installations
 To work with the environment you must install gym, pytorch (or any deep learning library you're comfortable with) and Unity/Unity ML-agents you can do so by using following repositories to install dependencies:
+
 [Unity](https://unity3d.com/get-unity/download)
+
 [Unity-mlagents](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Readme.md)
+
 [Gym install](https://github.com/openai/gym).
+
 [PyTorch](https://pytorch.org/)
 
