@@ -1,10 +1,10 @@
 # Summary
  - Reinforcement learning is a section of machine learning that designs an algorithm to learn how to achieve tasks from positive and negative rewards. When implemented with deep neural networks, it has been cutting edge in the world of AI. 
- - This project was designed to show the potential of the learning algorithm within a discrete space.
+ - This project is designed to show the potential of the learning algorithm within a discrete space.
 
 # The Environment
-- The agent is operating within an environment that is discrete; meaning it has a finite set of state spaces (37) that it can travel to. 
-- The environment also has bananas scattered around it, blue and yellow.
+- The agent is operating within an environment that is discrete; meaning it can travel to a finite set of state spaces (37). 
+- The environment has bananas scattered around it, blue and yellow. 
 - It's built using Unity and Gym packages on python, taking raw pixels from 3 dimensional space and turning it into vectors so that the problem is approachable in 2 dimensional space.
 
 # The Agent
