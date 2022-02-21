@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-using namespace std: //make standard library accessible to use names
+using namespace std; //make standard library accessible to use names
 
 class Agent {
 
@@ -12,10 +12,19 @@ Agent::Agent() //agent class constructor
 //no need to include state size because state size is continuous
 //and neural networks will acept the output of CNN instead of
 //traditional state size with linear networks input
+private:
+const int8 action_size; //private access to action_size
+typedef float32 state; //private access to the vectorized state
+
+    
 
 
 public:
-int Agent::action_size() //public access to change action_size
+
+
+
+
+
     
 
 }
