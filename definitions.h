@@ -13,10 +13,11 @@ Agent::Agent() //agent class constructor
 //and neural networks will acept the output of CNN instead of
 //traditional state size with linear networks input
 private:
-const int8 action_size; //private access to action_size
-typedef float32 state; //private access to the vectorized state
+const typedef int action_size; //private access to action_size
+const typedef float state; //private access to the vectorized state
+const typedef int batch_size; //batch size for updates to networks
+const typedef int buffer_size; //buffer size for replay buffer
 
-    
 
 
 public:
@@ -32,13 +33,6 @@ public:
 class Environment{
 
     Environment::Environment() //class constructor for environment
-
-
-    public:
-        float trade_result() const;
-
-    private:
-        float balance;
         
 
 
