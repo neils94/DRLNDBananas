@@ -34,8 +34,30 @@ class Environment{
 
     Environment::Environment() //class constructor for environment
         
-
-
-
-
+        
+    // Create class for interactions with environment:
+        
+        
+        // Include a function to cue taking a trade (Oanda -> Docs -> Order)
+        
+            // Parameters for opening Order (/v3/accounts/{accountID}/orders) inlclude:
+        
+                //Autorization: bearer token (string)
+                //Accept-DateTime format:  Date Time formatted in Unix (string)
+                //Account ID (string)
+        
+        // Include a function that returns all positions and balance (v3/accounts/{accountID}/positions):
+        // Parse out most recent position
+        
+            //Parameters for Position (Oanda -> Docs -> Position) (v3/accounts/{accountID}/positions) function include:
+        
+                //Authorization bearer token (string)
+                //path: AccountID (string)
+        
+        
+            //Parameters for Account balance (Oanda -> Docs -> Account) (v3/accounts/{accountID}):
+                
+                //Authorization bearer token (string) 
+                //Accept-DateTime format:  Date Time formatted in Unix (string)
+                ///path: AccountID (string)
 }
