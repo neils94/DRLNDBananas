@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <math.h>
+#include <stdio.h>
 
 using namespace std; //make standard library accessible to use names
 
@@ -39,10 +41,10 @@ class Environment{
         
         
         
-    // Create class for interactions with environment:
+    // CREATE CLASS FOR INTERACTIONS WITH ENVIRONMENT:
         
         
-        // Include a function to cue taking a trade (Oanda -> Docs -> Order)
+        // FUNCTION TO CUE TAKING TRADES (Oanda -> Docs -> Order)
         
             // Parameters for opening Order (/v3/accounts/{accountID}/orders) inlclude:
         
@@ -50,7 +52,8 @@ class Environment{
                 //Accept-DateTime format:  Date Time formatted in Unix (string)
                 //Account ID (string)
         
-        // Include a function that returns all positions and balance (v3/accounts/{accountID}/positions):
+        // FUNCTION THAT RETURNS ALL POSITIONS AND CURRENT BALANCE (v3/accounts/{accountID}/positions):
+        
         // Parse out most recent position
         
             //Parameters for Position (Oanda -> Docs -> Position) (v3/accounts/{accountID}/positions) function include:
@@ -64,6 +67,9 @@ class Environment{
                 //Authorization bearer token (string) 
                 //Accept-DateTime format:  Date Time formatted in Unix (string)
                 ///path: AccountID (string)
+        
+        // REWARD FUNCTION:
+        
         
         
 }
