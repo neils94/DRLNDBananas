@@ -34,6 +34,10 @@ class Environment{
 
     Environment::Environment() //class constructor for environment
         
+        //bearer token string to be used in API calls
+        typedef const str bearer_token = "c00f3da14e736b95bce848501bfdea7a-54f731eeda7ba20287dae157a23943ba"
+        
+        
         
     // Create class for interactions with environment:
         
@@ -60,4 +64,6 @@ class Environment{
                 //Authorization bearer token (string) 
                 //Accept-DateTime format:  Date Time formatted in Unix (string)
                 ///path: AccountID (string)
+        
+        
 }
