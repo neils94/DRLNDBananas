@@ -54,7 +54,7 @@ class Environment{
                 //Account ID (string)
     
         
-    curl -H "Authorization: Bearer bearer_token https://api-fxtrade.oanda.com/v3/accounts  
+    curl -H "Authorization: Bearer bearer_token https://api-fxtrade.oanda.com/v3/accounts/{accountID}/positions"  
         
         // FUNCTION THAT RETURNS ALL POSITIONS AND CURRENT BALANCE (v3/accounts/{accountID}/positions):
         
@@ -65,7 +65,7 @@ class Environment{
                 //Authorization bearer token (string)
                 //path: AccountID (string)
           
-    curl -H "Authorization: Bearer bearer_token https://api-fxtrade.oanda.com/v3/accounts/{"accountID"}
+    curl -H "Authorization: Bearer bearer_token https://api-fxtrade.oanda.com/v3/accounts/{accountID}"
         
         
             //Parameters for Account balance (Oanda -> Docs -> Account) (v3/accounts/{accountID}):
@@ -78,7 +78,7 @@ class Environment{
         
     if (done = True){
         
-        curl -H "Authorization: Bearer bearer_token https://api-fxtrade.oanda.com/v3/accounts/{"accountID"}
+        curl -H "Authorization: Bearer bearer_token https://api-fxtrade.oanda.com/v3/accounts/{accountID}"
         
         reward = log(trade_result)
         }
