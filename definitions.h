@@ -83,4 +83,11 @@ class Environment{
         reward = log(trade_result)
         }
     return reward
+        
+    //if trade == 'open'{
+        //for(i=0, i<100, i++){
+        //trading algorithm goes here
+        //avg out 100 iterations, if EV is positive, don't touch the trade
+        //if EV is negative, close the trade 
+        }
 }
