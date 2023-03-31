@@ -1,5 +1,3 @@
-"DDPG"
-
 def DDPG(t_steps, num_episodes, print_every):
     
     buffer_size = int(1e5)
